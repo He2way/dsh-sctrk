@@ -1,7 +1,7 @@
 {
   "name": "dsh-sctrk",
-  "version": "0.75.0",
-  "description": "DSH client plugin — 右侧悬浮会话轨迹条：悬停刻度/簇点显示浮窗预览，点击刻度/簇点/浮窗条目精确跳转；容器替换自愈+按 key 定位（v75）。",
+  "version": "0.76.0",
+  "description": "DSH client plugin — 右侧悬浮会话轨迹条：悬停刻度/簇点显示浮窗预览，点击刻度/簇点/浮窗条目精确跳转；用户簇点可靠选中伸长（v76）。",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
