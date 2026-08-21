@@ -1,0 +1,8 @@
+# dsh-sctrk bundle patch: mount the client-plugin row.
+#
+# Applied as a bundle layer — `dsh plugin --profile web add <pkg>` reconciles
+# this package into the profile's `dsh.profile.bundles` list automatically,
+# so no manual patch editing is needed after install.
+- insert:
+    - id: sctrk
+      name: 'dsh-sctrk'

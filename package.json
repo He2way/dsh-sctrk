@@ -1,0 +1,49 @@
+{
+  "name": "dsh-sctrk",
+  "version": "0.74.0",
+  "description": "DSH client plugin — 右侧悬浮会话轨迹条：悬停刻度/簇点显示浮窗预览，点击刻度/簇点/浮窗条目精确跳转；浮窗区点击跳转；进入交互带内总是伸长最近刻度（v74）。",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": { "default": "./lib/index.js" },
+    "./client": { "default": "./lib/client.js" },
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "client-plugin",
+    "scroll-track",
+    "chat-trajectory"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/He2way/dsh-sctrk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/He2way/dsh-sctrk/issues"
+  },
+  "homepage": "https://github.com/He2way/dsh-sctrk#readme",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "slots"
+      ]
+    }
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  }
+}
