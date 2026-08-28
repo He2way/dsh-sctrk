@@ -61,6 +61,7 @@ No build step — `lib/client.js` is both source and shipped bundle (ModuleLoade
 
 ## Changelog / 变更记录
 
+- **v77** — 轨迹条移到左侧：轨道 left:8，刻度/簇点吸附左缘、伸长向右，浮窗/桥接带镜像到轨道右侧，交互带改在右侧。
 - **v76** — 用户簇点选中修复：`pick` 增加纵向命中区（元素上下各扩 6px），2-3px 高的用户簇点可靠选中/伸长。
 - **v75** — 修复"新输入后进区域不伸长"：滚动容器替换自愈（measure 重查 + 500ms 定时重挂观察器）；burst 按 key 定位，杜绝索引漂移落空。
 - **v74** — 悬停磁吸：`trySnap` 垂直不再设 60px 上限，进入交互带内总是伸长最近的刻度/簇点。
